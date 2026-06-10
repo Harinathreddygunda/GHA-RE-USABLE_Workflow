@@ -3,3 +3,5 @@ on: push
 jobs:
   call-reusable:
     uses: ./.github/workflows/re-usable.yaml
+    with:
+      name: "Hari"
